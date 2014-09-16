@@ -51,7 +51,7 @@
     
     CFDataRef result = NULL;
     
-    OSStatus status = SecItemCopyMatching((__bridge CFDictionaryRef)dict, (CFTypeRef *)&result);
+    SecItemCopyMatching((__bridge CFDictionaryRef)dict, (CFTypeRef *)&result);
     return (__bridge NSData *)(result);
 }
 
