@@ -33,6 +33,17 @@ To save and verify passwords use:
     }
 ```
 
+## Additional Usage
+
+You can use LNPasswordManager to store other key/value pairs in the keychain using the following methods
+
+```ObjectiveC
+    [manager getKeychainValueForKey:@"Key"]; // Returns NSData
+    [manager createKeychainValue@"Value" forKey:@"Key"]; // Returns a BOOL
+    [manager updateKeychainValue:@"Value" forKey:@"Key"]; // Returns a BOOL
+    [manager deleteKeychainValue:@"Key"];
+```
+
 ## Installation
 
 LNPasswordManager is available through [CocoaPods](http://cocoapods.org). To install
