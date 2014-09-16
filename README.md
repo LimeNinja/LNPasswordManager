@@ -9,7 +9,29 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+LNPasswordManager provides some helper classes to save and verify passwords
+
+First, reference the singleton class:
+```ObjectiveC
+    LNPasswordManager *manager = [LNPasswordManager defaultKeychain];
+```
+
+The following are optional implementations
+```ObjectiveC
+    [manager setICloudSyncEnabled:YES]; // Enables syncing of the keychain with iCloud
+    [manager setServiceName:@"com.limeninja.appName"]; // Sets the service name
+```
+
+To save and verify passwords use:
+```ObjectiveC
+    [manager savePassword:passwordField.text forUsername:usernameField.text];
+    
+    if ([manager verifyPassword:passwordField.text forUsername:usernameField.text]) {
+        NSLog(@"Password Correct");
+    } else {
+        NSLog(@"Password Incorrect");
+    }
+```
 
 ## Installation
 
