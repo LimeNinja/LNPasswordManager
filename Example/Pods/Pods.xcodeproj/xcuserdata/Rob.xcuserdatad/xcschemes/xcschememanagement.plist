@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>LNPasswordManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-LNPasswordManager-Expecta.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-LNPasswordManager-LNPasswordManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-LNPasswordManager-Specta.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-LNPasswordManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>27072CCD1A474FE2A999D918</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>45F732F48DEC41BE8DA69D6C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>96F28895087D4239B02B9AB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DDDB941DB02C48E7A7454FDA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FF104815C6684582AA655D90</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
