@@ -93,13 +93,7 @@
 		CB5AE498D68449DEA84DD82B /* Pods-LNPasswordManager-Expecta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD21C916F3B74A3097CF9ECB /* Pods-LNPasswordManager-Expecta-dummy.m */; };
 		D06DB8D6D90F415599FA3198 /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = 03457F67F0B54F63BCB48A23 /* EXPMatchers+raiseWithReason.h */; };
 		D16B566DC8A840F395DF2BB3 /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8DDB69493B48BDAE70132F /* EXPMatchers+endWith.m */; };
-		D460A12A19C83CFC001C8FAC /* LNPasswordManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D460A12819C83CFC001C8FAC /* LNPasswordManager.h */; };
-		D460A12B19C83CFC001C8FAC /* LNPasswordManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D460A12819C83CFC001C8FAC /* LNPasswordManager.h */; };
-		D460A12C19C83CFC001C8FAC /* LNPasswordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D460A12919C83CFC001C8FAC /* LNPasswordManager.m */; };
-		D460A12D19C83CFC001C8FAC /* LNPasswordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D460A12919C83CFC001C8FAC /* LNPasswordManager.m */; };
-		D460A12E19C83CFC001C8FAC /* LNPasswordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D460A12919C83CFC001C8FAC /* LNPasswordManager.m */; };
-		D460A12F19C83CFC001C8FAC /* LNPasswordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D460A12919C83CFC001C8FAC /* LNPasswordManager.m */; };
-		D460A13019C83CFC001C8FAC /* LNPasswordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D460A12919C83CFC001C8FAC /* LNPasswordManager.m */; };
+		D4AE077019C843C800FEDEFA /* LNPasswordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AE076F19C843C800FEDEFA /* LNPasswordManager.m */; };
 		DB88561C1D334DB8A9E24462 /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 9399BBE3E813410DABF8C77F /* SpectaUtility.h */; };
 		DF940F866E7348FCA0275826 /* EXPBackwardCompatibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A92010E34D43C2816F9011 /* EXPBackwardCompatibility.m */; };
 		DFB3B71C1C9B46C19C46A0AC /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 24AAD3DC655647F5841921F3 /* EXPMatchers+conformTo.h */; };
@@ -268,8 +262,8 @@
 		CC9D208BBE90457F9BF0E592 /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = src/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
 		D0777999DED84F59BC2FC2E0 /* EXPMatchers+raise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raise.m"; path = "src/matchers/EXPMatchers+raise.m"; sourceTree = "<group>"; };
 		D31E5E2737844AAEB6685F0B /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "src/matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
-		D460A12819C83CFC001C8FAC /* LNPasswordManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNPasswordManager.h; sourceTree = "<group>"; };
-		D460A12919C83CFC001C8FAC /* LNPasswordManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNPasswordManager.m; sourceTree = "<group>"; };
+		D4AE076E19C843C800FEDEFA /* LNPasswordManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LNPasswordManager.h; path = LNPasswordManager/LNPasswordManager.h; sourceTree = "<group>"; };
+		D4AE076F19C843C800FEDEFA /* LNPasswordManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LNPasswordManager.m; path = LNPasswordManager/LNPasswordManager.m; sourceTree = "<group>"; };
 		D6EE8B6D6491440DA2DEA6D8 /* EXPMatchers+beLessThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThanOrEqualTo.h"; path = "src/matchers/EXPMatchers+beLessThanOrEqualTo.h"; sourceTree = "<group>"; };
 		D6F5B6B3E0FB4DDEA175970A /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "src/XCTestCase+Specta.m"; sourceTree = "<group>"; };
 		DC39CE1D909F4D639DE667A7 /* EXPMatchers+beSupersetOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSupersetOf.m"; path = "src/matchers/EXPMatchers+beSupersetOf.m"; sourceTree = "<group>"; };
@@ -556,8 +550,8 @@
 		DA927EB4906F4CF59D124417 /* LNPasswordManager */ = {
 			isa = PBXGroup;
 			children = (
-				D460A12819C83CFC001C8FAC /* LNPasswordManager.h */,
-				D460A12919C83CFC001C8FAC /* LNPasswordManager.m */,
+				D4AE076E19C843C800FEDEFA /* LNPasswordManager.h */,
+				D4AE076F19C843C800FEDEFA /* LNPasswordManager.m */,
 				4E23B81186064A7D997325A1 /* Support Files */,
 			);
 			name = LNPasswordManager;
@@ -584,7 +578,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2356C5333E3A4AB1AE6E4D04 /* EXPBackwardCompatibility.h in Headers */,
-				D460A12A19C83CFC001C8FAC /* LNPasswordManager.h in Headers */,
 				1AE6ADC98C4A478AA7DCF58A /* EXPBlockDefinedMatcher.h in Headers */,
 				AEA3BEFF0B654CEA9F2ED8F3 /* EXPDefines.h in Headers */,
 				284DD6F4F07642408AD19DC7 /* EXPDoubleTuple.h in Headers */,
@@ -630,7 +623,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EE08FC11C0749C6BC89ED6C /* SPTExample.h in Headers */,
-				D460A12B19C83CFC001C8FAC /* LNPasswordManager.h in Headers */,
 				2F8AB340B58E4A30B2161B71 /* SPTExampleGroup.h in Headers */,
 				E3A40CD8158843279C90372E /* SPTNestedReporter.h in Headers */,
 				786D33DA3B6042A88DE0D6E1 /* SPTReporter.h in Headers */,
@@ -782,7 +774,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D460A12F19C83CFC001C8FAC /* LNPasswordManager.m in Sources */,
 				F9826D3FD42B483086486F87 /* Pods-LNPasswordManager-LNPasswordManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -798,7 +789,6 @@
 				36D51141F7354EE7A4FAEA19 /* SPTReporter.m in Sources */,
 				29305197588349AD9BF44AB0 /* SPTSharedExampleGroups.m in Sources */,
 				B6D9DB7BB37E4505A7A95A71 /* SPTSpec.m in Sources */,
-				D460A13019C83CFC001C8FAC /* LNPasswordManager.m in Sources */,
 				6DFE1B0D236A4BCF8A1368AF /* SPTXCTestCase.m in Sources */,
 				24011D7EA5124F2AACFCB3ED /* SPTXCTestReporter.m in Sources */,
 				0B748165E25B4E0284AA5C27 /* Specta.m in Sources */,
@@ -813,7 +803,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D460A12D19C83CFC001C8FAC /* LNPasswordManager.m in Sources */,
 				220496B742E44081B46B614F /* Pods-LNPasswordManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -856,7 +845,6 @@
 				FDD7B918AD12402399ED89F4 /* Expecta.m in Sources */,
 				F022D7AA9A494FCDBAD581EB /* ExpectaSupport.m in Sources */,
 				AC57D089D09146A681105F90 /* NSValue+Expecta.m in Sources */,
-				D460A12E19C83CFC001C8FAC /* LNPasswordManager.m in Sources */,
 				CB5AE498D68449DEA84DD82B /* Pods-LNPasswordManager-Expecta-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -865,7 +853,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D460A12C19C83CFC001C8FAC /* LNPasswordManager.m in Sources */,
+				D4AE077019C843C800FEDEFA /* LNPasswordManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
