@@ -53,9 +53,9 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-NilSkilz, rob.stokes@redsource.com
+[LimeNinja](http://lime.ninja "LimeNinja"), rob@limeninja.com
 
 ## License
 
-LNPasswordManager is available under the MIT license. See the LICENSE file for more info.
+LNPasswordManager was Created by [LimeNinja](http://lime.ninja "LimeNinja") and is available under the MIT license. See the LICENSE file for more info.
 
